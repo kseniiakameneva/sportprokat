@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="list-group">
+
+        {% for category in categories %}
+            <a href="{% url 'category' pk=category.pk %}" class="list-group-item">{{ category.title }}</a>
+        {% endfor %}
+    <br>
+        <br>
+
+
+    </div>
+
+    </div>
+
+    <div class="col-md-9">
+
+        <div class="row carousel-holder">
+
+            <div class="col-md-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+
+                </div>
+            </div>
+
+        </div>
+        <br>
+    </div>
+
+        <div class="row">
+
+    <img src="/media/Kontakty.jpg" alt="" style='width:50%; height: 175px'>
+            <br>
+            <br>
+
+            <div class="col-md-offset-2">
+                <p><strong>Время работы:</strong> пн-пт с 10.00 до 19.00</p>
+                <p><strong>Адрес:</strong> Украина г. Харьков проспект Гагарина 20</p>
+                <p>Взять и сдать снаряжение можно предварительно позвонив по тел.:</p>
+                <p>(067) 760-06-35, (093) 022-34-56</p>
+            </div>
+             </div>
+
+{% endblock content %}
