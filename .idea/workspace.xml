@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b150235b-7bab-4a30-8a25-51e9af2c66d4" name="Default" comment="" />
+    <list default="true" id="b150235b-7bab-4a30-8a25-51e9af2c66d4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prokat/models.py" afterPath="$PROJECT_DIR$/prokat/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prokat/templates/booking.html" afterPath="$PROJECT_DIR$/prokat/templates/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prokat/templates/check.html" afterPath="$PROJECT_DIR$/prokat/templates/check.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prokat/views.py" afterPath="$PROJECT_DIR$/prokat/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prokat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+            <state relative-caret-position="319">
+              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="e#24#78#0" expanded="true" />
-                <marker date="1528031346086" expanded="true" signature="386:415" ph="SELECT * FRO... prokat_category" />
-                <marker date="1528031346086" expanded="true" signature="455:483" ph="SELECT * FRO... prokat_product" />
-                <marker date="1528031346086" expanded="true" signature="517:542" ph="SELECT * FRO... prokat_type" />
-                <marker date="1528031346086" expanded="true" signature="848:949" ph="SELECT * FRO... prokat_product" />
-                <marker date="1528031346086" expanded="true" signature="1025:1054" ph="SELECT * FRO... prokat_category" />
-                <marker date="1528031346086" expanded="true" signature="4019:4048" ph="SELECT * FRO... prokat_category" />
+                <marker date="1528034416076" expanded="true" signature="386:415" ph="SELECT * FRO... prokat_category" />
+                <marker date="1528034416076" expanded="true" signature="455:483" ph="SELECT * FRO... prokat_product" />
+                <marker date="1528034416076" expanded="true" signature="517:542" ph="SELECT * FRO... prokat_type" />
+                <marker date="1528034416076" expanded="true" signature="848:949" ph="SELECT * FRO... prokat_product" />
+                <marker date="1528034416076" expanded="true" signature="1025:1054" ph="SELECT * FRO... prokat_category" />
+                <marker date="1528034416076" expanded="true" signature="4019:4048" ph="SELECT * FRO... prokat_category" />
               </folding>
             </state>
           </provider>
@@ -48,8 +54,8 @@
       <file leaf-file-name="booking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prokat/templates/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="407">
+              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -58,8 +64,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prokat/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="118" column="77" lean-forward="true" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="77" />
+            <state relative-caret-position="365">
+              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -67,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="check.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prokat/templates/check.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="32" column="114" lean-forward="false" selection-start-line="32" selection-start-column="114" selection-end-line="32" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -140,15 +146,15 @@
         <option value="$PROJECT_DIR$/static/css/shop-homepage.css" />
         <option value="$PROJECT_DIR$/prokat/templates/place_search.html" />
         <option value="$PROJECT_DIR$/prokat/templates/category.html" />
-        <option value="$PROJECT_DIR$/prokat/templates/booking.html" />
         <option value="$PROJECT_DIR$/prokat/templates/prod_detail.html" />
         <option value="$PROJECT_DIR$/prokat/admin.py" />
         <option value="$PROJECT_DIR$/prokat/templates/base.html" />
         <option value="$PROJECT_DIR$/prokat/urls.py" />
-        <option value="$PROJECT_DIR$/prokat/models.py" />
         <option value="$PROJECT_DIR$/prokat/forms.py" />
-        <option value="$PROJECT_DIR$/prokat/templates/check.html" />
+        <option value="$PROJECT_DIR$/prokat/models.py" />
         <option value="$PROJECT_DIR$/prokat/views.py" />
+        <option value="$PROJECT_DIR$/prokat/templates/booking.html" />
+        <option value="$PROJECT_DIR$/prokat/templates/check.html" />
       </list>
     </option>
   </component>
@@ -691,45 +697,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prokat/templates/booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prokat/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="118" column="77" lean-forward="true" selection-start-line="118" selection-start-column="77" selection-end-line="118" selection-end-column="77" />
+        <state relative-caret-position="365">
+          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prokat/templates/check.html">
+    <entry file="file://$PROJECT_DIR$/prokat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#78#0" expanded="true" />
+            <marker date="1528034416076" expanded="true" signature="386:415" ph="SELECT * FRO... prokat_category" />
+            <marker date="1528034416076" expanded="true" signature="455:483" ph="SELECT * FRO... prokat_product" />
+            <marker date="1528034416076" expanded="true" signature="517:542" ph="SELECT * FRO... prokat_type" />
+            <marker date="1528034416076" expanded="true" signature="848:949" ph="SELECT * FRO... prokat_product" />
+            <marker date="1528034416076" expanded="true" signature="1025:1054" ph="SELECT * FRO... prokat_category" />
+            <marker date="1528034416076" expanded="true" signature="4019:4048" ph="SELECT * FRO... prokat_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prokat/templates/booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prokat/views.py">
+    <entry file="file://$PROJECT_DIR$/prokat/templates/check.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
-          <folding>
-            <element signature="e#24#78#0" expanded="true" />
-            <marker date="1528031346086" expanded="true" signature="386:415" ph="SELECT * FRO... prokat_category" />
-            <marker date="1528031346086" expanded="true" signature="455:483" ph="SELECT * FRO... prokat_product" />
-            <marker date="1528031346086" expanded="true" signature="517:542" ph="SELECT * FRO... prokat_type" />
-            <marker date="1528031346086" expanded="true" signature="848:949" ph="SELECT * FRO... prokat_product" />
-            <marker date="1528031346086" expanded="true" signature="1025:1054" ph="SELECT * FRO... prokat_category" />
-            <marker date="1528031346086" expanded="true" signature="4019:4048" ph="SELECT * FRO... prokat_category" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="32" column="114" lean-forward="false" selection-start-line="32" selection-start-column="114" selection-end-line="32" selection-end-column="114" />
+          <folding />
         </state>
       </provider>
     </entry>

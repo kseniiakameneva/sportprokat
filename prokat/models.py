@@ -56,6 +56,7 @@ class ProductManager(models.Model):
 
 
 class Product(models.Model):
+    id = models.AutoField(primary_key=True)
     category = models.ForeignKey(Category)
     type = models.ForeignKey(Type, null=True)
     title = models.CharField(max_length=120)

@@ -4,7 +4,6 @@
 {% block content %}
 
     <div class="list-group">
-<h1>Категории:</h1>
     <br>
         {% for category in categories %}
             <a href="{% url 'category' pk=category.pk %}" class="list-group-item">{{ category.title }}</a>
@@ -31,7 +30,7 @@
                                 <h1><FONT color="red" size=4>{{ text }}</FONT></h1>
                                 <form action="" method="POST" class="post-form">{% csrf_token %}
                                     {{ form|crispy }}
-                                    <button type="submit" class="save btn btn-default">Save</button>
+                                    <button type="submit" class="save btn btn-default">Проверить наличие инвентаря</button>
                                 </form>
                             </div>
 

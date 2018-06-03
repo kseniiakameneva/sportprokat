@@ -123,13 +123,13 @@ def check(request):
             dates = form.save(commit=False)
             date1 = dates.date
             date2 = dates.date_end
-            products = Product.objects.all()
-            '''''''''
-            res = Order.objects.values_list('prokat_order.product_id', flat=True).filter(
+            #products = Product.objects.all()
+
+            res = Order.objects.values_list('product_id', flat=True).filter(
                 Q(date__range=(date1, date2)) | Q(date_end__range=(
                     date1, date2)))
-            products = Product.objects.filter(~Q(p))
-            '''
+            products = Product.objects.exclude(id__in= res)
+
             return render(request, 'check.html', {'form': form, 'products': products, 'categories': categories})
 
         else:
